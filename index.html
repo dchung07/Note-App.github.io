@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <header>
+    <h1 id="title">Note App</h1>
+    <button id="plusButton" onclick="popup()">+</button>
+    <input id ="myInput" type="text" placeholder="Search your notes..." onkeyup="filter()">
+  </header>
+  <body>
+	<script src="index.js"></script>
+
+  <div id= "myModal" class="modal">
+
+    <textarea id="titleText" placeholder="Title"></textarea>
+    <textarea id="bodyText" placeholder="Body Text"></textarea>
+    <div class="btnContainer">
+      <button id="addNote" type="submit" onclick="addNote()">Add Note</button>
+      <button id="close" type="submit" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <div id="notes">
+  </div>
+
+  <div id="myViewModal" class="viewModal">
+    <!-- Modal content -->
+    <div class="viewModal-content">
+      <span class="close">&times;</span>
+      <h3 id="modalTitleText"></h3>
+      <p id="modalBodyText"></p>
+    </div>
+
+  </div>
+ 
+  </body>
+
+
+
+</html>
