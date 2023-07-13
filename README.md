@@ -1,1 +1,11 @@
 # Note-App.github.io
+
+NOTE TAKING WEBSITE
+https://dchung07.github.io/Note-App.github.io/
+
+FEATURES
+- CREATE NOTE
+- FILTER THROUGH PRE-EXISTING NOTES
+- DELETE NOTE
+- VIEW NOTE
+- EDITE NOTE
